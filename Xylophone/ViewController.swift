@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
-        print("Start")
+        print("Start.  I got pressed.")
         print(sender.currentTitle!)
         sender.alpha = 0.5
         sender.setNeedsDisplay()
